@@ -5,7 +5,11 @@ import App from './App'
 import ElementUI from 'element-ui'
 import router from './config/routes'
 import 'element-ui/lib/theme-default/index.css'
+import axios from 'axios'
+
 Vue.use(ElementUI)
+Vue.prototype.$http = axios
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

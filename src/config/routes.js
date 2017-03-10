@@ -3,9 +3,9 @@ import Router from 'vue-router'
 import welcome from '../page/welcome'
 import content from '../page/content'
 import login from '../page/login'
+import register from '../page/register'
 
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
@@ -19,6 +19,10 @@ export default new Router({
     {
       path: '/login',
       component: login
+    },
+    {
+      path: '/register',
+      component: register
     }
   ]
 })

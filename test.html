@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<script type="text/javascript" src="node_modules/axios/dist/axios.js"></script>
+	<script type="text/javascript">
+		axios.get('http://127.0.0.1:5000')
+		  .then (data => {
+		  	console.log(data)
+		  })
+		  .catch ( err => {
+		  	console.log(err)
+		  })
+	</script>
+</body>
+</html>

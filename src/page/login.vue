@@ -1,7 +1,7 @@
 <template>
   	<el-row type="flex" class="row-bg" justify="center" align="middle">
   		<el-col :span="6">
-       <h1>登陆</h1>
+      <h2>登陆</h2>
   			<el-form :model="ruleForm2" :rules="rules2" ref="ruleForm2" label-width="100px" class="demo-ruleForm">
           <el-form-item label="密码" prop="pass">
             <el-input type="password" v-model="ruleForm2.pass" auto-complete="off"></el-input>
